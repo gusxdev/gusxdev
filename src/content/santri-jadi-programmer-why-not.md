@@ -3,7 +3,7 @@ title: Santri jadi programmer? Why not 😎
 date: 2023-07-12
 author: Agus Setiawan
 desc: Kata siapa santri cuman bisa jadi ustadz? Dalam artikel ini berisi sepenggal cerita hidupku yang tidak penah terbesit dibenakku sebagai seorang santri, tapi aku yakin ini semua sudah Allah tentukan dalam skenario-Nya, dan itulah yang terbaik untukku. Didalamnya juga ada beberapa tips coding untuk pemula dari sko.dev semoga bermanfaat 😊
-img:
+img: https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80
 imgWidth: 800
 imgHeight: 500
 ---
