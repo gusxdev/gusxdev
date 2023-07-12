@@ -1,25 +1,17 @@
-# Daisy Blog
+# Agus Setiawan - Full-stack Developer
 
-Simple blog template with Astro, Tailwind CSS, daisyUI
+A happy full-stack developer who aims to help others grow in web development 🤝
 
-[![](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saadeghi/daisy-blog)
+I have worked on a variety of projects, from MVPs to full-scale applications. I have also held various positions in the web and mobile application development industry and have a lot of experience in the field.
 
-## Demo
-https://daisy-blog.netlify.app/
+Feel free to contact me if you need any help with your web development projects. I'm always willing to serve as a mentor on specific technologies and to help teams achieve success.
 
-## Features
-- Dark mode and light mode
-- Markdown content
-- Tailwind CSS and daisyUI included
-- Tailwind CSS Typography plugin included
-- Posts have date, author name, description and image
-- SEO tags, meta tags, and social tags included
-- Posts can be draft (only visible on development environment)
+Check all of my past projects and complete experience on [https://gusxdev.my.id](https://gusxdev.my.id)
 
-## Screenshots
-<img width="1512" alt="Screen Shot 2022-04-09 at 12 23 05 AM" src="https://user-images.githubusercontent.com/7342023/162526541-0aa9ac3b-496e-4604-a6fb-9c2e76451a79.png">
+## About my personal website
 
-<img width="1512" alt="Screen Shot 2022-04-09 at 12 22 55 AM" src="https://user-images.githubusercontent.com/7342023/162526675-1f304e15-4b23-4bfd-9686-07fb7d81d435.png">
+It built using Astro.
 
-<img width="1512" alt="Screen Shot 2022-04-09 at 12 25 04 AM" src="https://user-images.githubusercontent.com/7342023/162526692-b7f82574-495f-47dc-ac4c-cc00b98412c1.png">
+- Deployed on Netlify Pages: [https://gusxdev.my.id](https://gusxdev.my.id)
 
+You can also follow my journey on Twitter @agoesset16\_ 👋

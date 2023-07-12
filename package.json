@@ -1,5 +1,5 @@
 {
-  "name": "daisy-blog",
+  "name": "gusxdevs",
   "version": "0.1.0",
   "private": false,
   "scripts": {
@@ -14,6 +14,7 @@
     "astro": "^1.0.0-beta.2",
     "autoprefixer": "^10.4.2",
     "daisyui": "^2.6.0",
+    "prettier-plugin-astro": "^0.10.0",
     "rehype-autolink-headings": "^6.1.1",
     "rehype-slug": "^5.0.1",
     "shiki": "^0.10.1",
