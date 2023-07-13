@@ -8,9 +8,9 @@ imgWidth: 800
 imgHeight: 500
 ---
 
-<div class="mockup-code">
-  <pre><code>"...Nggak harus semuanya jadi ustadz, bisa jadi dokter, arsitek, pengusaha. Tapi <br> jangan lupa untuk berdakwah, karna dakwah bukan tugas seorang ustadz atau ulama saja, <br> melainkan  tugas  semua orang yang mengaku muslim..."</code></pre> 
-</div>
+<blockquote class="text-xl italic font-semibold text-gray-900 dark:text-white">
+    <p>"...Nggak harus semuanya jadi ustadz, bisa jadi dokter, arsitek, pengusaha. Tapi jangan lupa untuk berdakwah, karna dakwah bukan tugas seorang ustadz atau ulama saja, melainkan tugas semua orang yang mengaku muslim..."</p>
+</blockquote>
 
 Yups, begitulah kira-kira potongan nasehat ustadzku ketika menyampaikan materi di sebuah kajian.
 
