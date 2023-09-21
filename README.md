@@ -11,4 +11,4 @@ It built using Astro
 
 - Deployed on Netlify Pages: [https://gusxdev.my.id](https://gusxdev.my.id)
 
-You can also follow my journey on Twitter @helmisatria\_ 👋
+You can also follow my journey on Twitter @agoesset16_ 👋
