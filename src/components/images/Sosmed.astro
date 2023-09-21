@@ -1,0 +1,12 @@
+---
+const { platform, username } = Astro.props;
+---
+
+<a href={`https://${platform}.com/${username}`} target="_blank"
+  ><img
+    class="h-12 w-12 hover:translate-y-1"
+    src={`/assets/sosmed/${platform}.svg`}
+    alt={`${platform} icon`}
+    loading="lazy"
+  /></a
+>

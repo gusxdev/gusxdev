@@ -1,0 +1,25 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import ThemeChange from "../components/ThemeChange.astro";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <div class="mx-auto max-w-screen-lg flex-grow">
+      <Header title={SITE_TITLE}>
+        <ThemeChange />
+      </Header>
+      <slot />
+    </div>
+    <div class="flex-shrink-0 mt-5">
+      <Footer />
+    </div>
+  </body>
+</html>

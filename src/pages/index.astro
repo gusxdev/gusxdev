@@ -1,0 +1,24 @@
+---
+import Hero from "../components/Hero.astro";
+import Moonton from "../components/projects/moonton/Moonton.astro";
+import ProjectHeader from "../components/projects/ProjectHeader.astro";
+import Page from "../layouts/Page.astro";
+import WorkHeader from "../components/works/WorkHeader.astro";
+import Energinu from "../components/works/energinu/Energinu.astro";
+import Contact from "../components/Contact.astro";
+---
+
+<Page>
+  <Hero id="home" />
+  <ProjectHeader id="projects" />
+  <Moonton />
+  <WorkHeader />
+  <Energinu />
+  <Contact />
+</Page>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>

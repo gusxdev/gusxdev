@@ -1,0 +1,55 @@
+---
+import type { CollectionEntry } from "astro:content";
+import FormattedDate from "../components/FormattedDate.astro";
+import Blog from "./Blog.astro";
+type Props = CollectionEntry<"blog">["data"];
+
+const { title, pubDate, updatedDate, heroImage } = Astro.props;
+---
+
+<Blog>
+  <div>
+    <a class="hover:underline" href="/blog">
+      👈 Back
+    </a>
+  </div>
+  <div class="flex justify-center">
+    <div class="py-6 prose lg:prose-lg">
+      {
+        heroImage ? (
+          <figure class="flex justify-center">
+            <img
+              src={heroImage}
+              alt={title}
+              width={720}
+              height={360}
+              class="rounded bg-base-200"
+            />
+          </figure>
+        ) : (
+          heroImage && (
+            <figure class="flex justify-center">
+              <img src={heroImage} alt={title} class="rounded bg-base-200" />
+            </figure>
+          )
+        )
+      }
+      <h1 class="my-10 font-bold text-5xl">{title}</h1>
+      <div class="flex gap-3">
+        <span class="badge badge-ghost">
+          <FormattedDate date={pubDate} />
+        </span>
+        {
+          (
+            <span class="text-sm text-base-content/70">
+              By {"Agus Setiawan"}
+            </span>
+          )
+        }
+      </div>
+      <div>
+        <slot />
+      </div>
+    </div>
+  </div>
+</Blog>

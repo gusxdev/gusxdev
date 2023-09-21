@@ -1,0 +1,55 @@
+---
+import Logo from "./Logo.astro";
+---
+
+<div class="card bg-base-content mt-10">
+  <div class="px-8 pt-10 flex flex-col sm:flex-row items-center">
+    <Logo />
+    <div class="flex-grow"></div>
+    <div
+      class="badge badge-ghost gap-2 text-xl py-3 sm:py-5 px-5 rounded-2xl font-semibold text-center sm:text-left"
+    >
+      👨‍💻 Web Developer
+    </div>
+  </div>
+
+  <div class="card-body">
+    <h4 class="text-lg font-semibold text-secondary sm:text-xl">
+      <span class="sr-only">Since:</span> Apr 2019 - Jul 2022 · 3 yrs 4 mos
+    </h4>
+    <p class="text-xl text-base-100 mb-5">
+      Memimpin tim dalam pengembangan website menggunakan Laravel dengan membuat fitur, halaman, dan komponen yang dapat yang digunakan oleh seluruh tim.
+    </p>
+
+    <ul class="text-xl text-base-100 mb-5 ml-7 list-disc">
+      <li>Mengembangkan dan memelihara website yayasan yang fokus pada pemanfaatan energi terbarukan.</li>
+      <li>Bertanggung jawab dalam pengembangan front-end dan back-end menggunakan HTML, CSS, JavaScript, PHP, MySQL, Laravel, dan Bootstrap.</li>
+      <li>Memimpin tim dalam mengembangkan website, serta mengevaluasinya.</li>
+      <li>Menggunakan Github untuk manajemen kode sumber dan kolaborasi dengan tim.</li>
+      <li>Mengintegrasikan layanan pihak ketiga, seperti Google dan Instagram.</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+  .svg {
+    width: 50px;
+    height: 50px;
+    transform: translateY(25%);
+  }
+
+  .card__links {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+  }
+
+  .card__links .link {
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .card__links .link:hover {
+    text-decoration: underline;
+  }
+</style>
